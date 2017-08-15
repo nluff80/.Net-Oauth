@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  auth:
+    image: auth
+    build:
+      context: .\Auth
+      dockerfile: Dockerfile
